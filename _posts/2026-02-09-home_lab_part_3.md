@@ -87,3 +87,14 @@ function showSlide(n) {
 }
 </script>
 
+### Power Supply/Cable Management
+
+As you can see in the images above the cable management leaves something to be desired. Each of these machines has its own power supply in the form of a 19.5V "charger", effectively. I learned the hard way that some companies, *cough* Dell *cough*, will throttle CPU if their proprietary power supply is not used. Luckily, I found 5 of Dell power supplies for these machines for a decent price at Renew Computers in San Rafael, CA.
+
+Thankfully both the HP machines and the Dell machines operate at the same voltage (19.5V) and have similar power demands. So, I began searching for a DC power supply, so I could eliminate the need for 7 power supplies and plugs. With one power supply I could use the existing proprietary (for the Dell machines) and generic power cables, but add some crimped terminals to add to my power distribution block (see photos above).
+
+Finding a small form factor power supply that offered the precise voltage I needed with the power output I needed proved to be somewhat difficult. I eventually settled on a TDK-Lambda CUS600M-19/EF. This power supply met all my needs: adjustable output voltage of 18.5-20.5, ~400W max power convection, and ~600W max power with forced air. This power supply will support 7 mini PCs (1 Proxmox VE host and 6 Talos hosts) each with peak power output of 65W, but I'm expecting they won't ever reach max power of 455W. Having said that I do intend to add a small fan to keep my rather pricey power supply happy.
+
+This world of physical hardware is still a bit new to me, so I'm still trying to figure out the exact setup for the input AC power, but should begin wire strippin' and crimpin' soon enough! 
+
+Next post in this series will hopefully be a short one showing off my clean cable management and sleek power setup. Stay tuned!
