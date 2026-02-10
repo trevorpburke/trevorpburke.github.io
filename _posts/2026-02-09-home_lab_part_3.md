@@ -2,7 +2,7 @@
 title: "Homelab Part 3a: Physical set up part 1"
 date: 2026-02-09
 categories: [Blogging, Homelab]
-tags: [homelab, kubernetes, k8s, talos]
+tags: [homelab, rackify, deskpi, cable-management]
 
 description: Third post in a series about setting up a 'homelab'
 ---
