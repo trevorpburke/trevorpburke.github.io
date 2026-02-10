@@ -29,15 +29,15 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
-      - name: Validate HTML
-        run: |
-          pip install html5validator
-          html5validator --root _site/ --also-check-css --show-warnings
-
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
+
+      - name: Validate HTML
+        run: |
+          pip install html5validator
+          html5validator --root _site/ --also-check-css --show-warnings
 
       - name: Test site
         run: |
