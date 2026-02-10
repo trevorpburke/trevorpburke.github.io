@@ -57,6 +57,10 @@ For the actual trays themselves I found a seller on Etsy, [Rackify](https://www.
   <span class="dot active" onclick="currentSlide(0)"></span>
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
 </div>
 
 <script>
@@ -93,8 +97,8 @@ As you can see in the images above the cable management leaves something to be d
 
 Thankfully both the HP machines and the Dell machines operate at the same voltage (19.5V) and have similar power demands. So, I began searching for a DC power supply, so I could eliminate the need for 7 power supplies and plugs. With one power supply I could use the existing proprietary (for the Dell machines) and generic power cables, but add some crimped terminals to add to my power distribution block (see photos above).
 
-Finding a small form factor power supply that offered the precise voltage I needed with the power output I needed proved to be somewhat difficult. I eventually settled on a TDK-Lambda CUS600M-19/EF. This power supply met all my needs: adjustable output voltage of 18.5-20.5, ~400W max power convection, and ~600W max power with forced air. This power supply will support 7 mini PCs (1 Proxmox VE host and 6 Talos hosts) each with peak power output of 65W, but I'm expecting they won't ever reach max power of 455W. Having said that I do intend to add a small fan to keep my rather pricey power supply happy.
+Finding a small form factor power supply that offered the precise voltage I needed with the power output I needed proved to be somewhat difficult. I eventually settled on a TDK-Lambda CUS600M-19/EF. This power supply met all my needs: adjustable output voltage of 18.5-20.5, 400W with natural convection cooling (enough for typical operation), expandable to ~600W with forced air if needed. This power supply will support 7 mini PCs (1 Proxmox VE host and 6 Talos hosts) each with peak power output of 65W, but I'm expecting they won't ever reach max power of 455W. Having said that I do intend to add a small fan to keep my rather pricey power supply happy.
 
 This world of physical hardware is still a bit new to me, so I'm still trying to figure out the exact setup for the input AC power, but should begin wire strippin' and crimpin' soon enough! 
 
-Next post in this series will hopefully be a short one showing off my clean cable management and sleek power setup. Stay tuned!
+Next post in this series will showcase the final power distribution setup and cable management. Stay tuned!
