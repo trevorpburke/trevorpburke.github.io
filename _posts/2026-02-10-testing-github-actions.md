@@ -35,7 +35,7 @@ For the actual trays themselves I found a seller on Etsy, [Rackify](https://www.
 </style>
 
 <div class="gallery" id="homelab-gallery"
-  <img src="/assets/img/homelab-physical-pics/IMG_8884.jpeg" class="active" alt="Beginnings of rack setup, awaiting more mounts"
+  <img src="/assets/img/homelab-physical-pics/IMG_8884.jpeg",,, class="active" alt="Beginnings of rack setup, awaiting more mounts"
   <img src="/assets/img/homelab-physical-pics/IMG_8889.jpeg" alt="Sizing up network cables">
   <img src="/assets/img/homelab-physical-pics/IMG_8890.jpeg" alt="Terminating 14-15 RJ45 connectors">
   <img src="/assets/img/homelab-physical-pics/IMG_8910.jpeg" alt="Installing Talos baremetal ISOs to 6 mini PCs">
