@@ -35,12 +35,12 @@ For the actual trays themselves I found a seller on Etsy, [Rackify](https://www.
 </style>
 
 <div class="gallery" id="homelab-gallery">
-  <img src="/assets/img/homelab-physical-pics/IMG_8884.jpeg" class="active", alt="Beginnings of rack setup, awaiting more mounts">
-  <img src="/assets/img/homelab-physical-pics/IMG_8889.jpeg", alt="Sizing up network cables">
-  <img src="/assets/img/homelab-physical-pics/IMG_8890.jpeg", alt="Terminating 14-15 RJ45 connectors">
-  <img src="/assets/img/homelab-physical-pics/IMG_8910.jpeg", alt="Installing Talos baremetal ISOs to 6 mini PCs">
-  <img src="/assets/img/homelab-physical-pics/IMG_8917.jpeg", alt="Pre label maker labels, showing machine IP host suffix">
-  <img src="/assets/img/homelab-physical-pics/IMG_8936.jpeg", alt="Power distribution block installed on DIN rail">
+  <img src="/assets/img/homelab-physical-pics/IMG_8884.jpeg" class="active" alt="Beginnings of rack setup, awaiting more mounts">
+  <img src="/assets/img/homelab-physical-pics/IMG_8889.jpeg" alt="Sizing up network cables">
+  <img src="/assets/img/homelab-physical-pics/IMG_8890.jpeg" alt="Terminating 14-15 RJ45 connectors">
+  <img src="/assets/img/homelab-physical-pics/IMG_8910.jpeg" alt="Installing Talos baremetal ISOs to 6 mini PCs">
+  <img src="/assets/img/homelab-physical-pics/IMG_8917.jpeg" alt="Pre label maker labels, showing machine IP host suffix">
+  <img src="/assets/img/homelab-physical-pics/IMG_8936.jpeg" alt="Power distribution block installed on DIN rail">
   <button class="prev" onclick="changeSlide(-1)">❮</button>
   <button class="next" onclick="changeSlide(1)">❯</button>
 </div>
